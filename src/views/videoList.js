@@ -7,7 +7,7 @@ var VideoListView = Backbone.View.extend({
   render: function() {
     this.$el.children().detach();
     this.$el.html(this.template());
-    
+
     let models = this.collection.models;
     let vlevs = [];
 
